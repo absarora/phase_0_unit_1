@@ -26,4 +26,5 @@ website, and use CSS media queries to account for a successful responsive web de
 * Did you find any resources on your own that helped you better understand a topic? If so, please list it.
 
 [Make your pages accessible to the visually impaired](https://www.amherst.edu/help/make_accessible)
+
 [Responsive Web Design: What It Is and How To Use It](http://coding.smashingmagazine.com/2011/01/12/guidelines-for-responsive-web-design/)
