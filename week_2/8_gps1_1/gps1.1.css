@@ -1,1 +1,46 @@
-/* include your css here */
+h1 {
+    text-align:center;
+}
+
+h4 {
+    text-align: center;
+    
+}
+#name1{
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
+#name2{
+    position: absolute;
+    top: 105px;
+    left: 107px;
+}
+
+#container {
+    position: relative;
+    width:300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ACDAF9;
+    font-family: 'Sniglet';
+}
+
+article{
+    position: relative;
+    margin: 0 5px 5px 5px;
+}
+
+span {
+    font-weight:bold;
+}
+
+img {
+    width: 100px;
+    height: inherit;
+}
+.img{
+    position: relative;
+    text-align: center;
+    /*margin-bottom: -20px;*/
+}
