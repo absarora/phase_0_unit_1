@@ -13,6 +13,7 @@ var terah = {
   eyeColor: "brown"
 }
 /* Pseudocode Section - write pseudocode for each challenge below.
+
 1. Define a variable adam and use object literal notation to assign this variable 
    the value of a JavaScript Object object with no properties.
 
@@ -46,21 +47,39 @@ var terah = {
 // __________________________________________
 // Write your code below.
 
+var adam = {
+  name: 'Adam',
+};
 
-
-
-
-
-
+terah["spouse"] = adam;
+terah["weight"] = 125;
+delete terah["eyeColor"];
+adam["spouse"] = terah;
+terah["children"] = {
+  carson: {
+        name: 'Carson'
+      },
+      carter: {
+        name: 'Carter'
+      },
+      colton: {
+        name: 'Colton'
+      }
+}
+adam["children"] = terah.children;
 
 // __________________________________________
 // Reflection: Use the reflection guidelines
-// 
-// 
-// 
-// 
-// 
-// 
+/*
+The pseudocode provided was straightforward and easy to follow. Initially, I didn’t realize that I
+couldn’t change the object, “Terah” and I continued to make the changes within the “Terah” object.
+
+Reading the assignment again and failing one of the tests made me dig deeper into creating objects
+and learn more about them. Codecademy was a live savior and it cleared few concepts for me related
+to objects.
+
+The assignment didn’t take long to finish; I was able to pass all the tests.
+*/
 
 
 // __________________________________________
